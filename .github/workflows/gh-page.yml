@@ -33,5 +33,7 @@ jobs:
       - name: Deploy 🚀 # 步骤名
         uses: JamesIves/github-pages-deploy-action@v4 # 使用插件 => https://github.com/JamesIves/github-pages-deploy-action
         with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           BRANCH: production # 部署分支
           FOLDER: dist # 打包, 静态资源输出的目录
+          CLEAN: true
