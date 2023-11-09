@@ -31,7 +31,7 @@ jobs:
 
       # step 4. 项目部署, 将打包后的产物合并到指定的分支上
       - name: Deploy 🚀 # 步骤名
-        uses: JamesIves/github-pages-deploy-action@v4.2.2 # 使用插件 => https://github.com/JamesIves/github-pages-deploy-action
+        uses: JamesIves/github-pages-deploy-action@master # 使用插件 => https://github.com/JamesIves/github-pages-deploy-action
         with:
           BRANCH: production # 部署分支
           FOLDER: build # 打包, 静态资源输出的目录
