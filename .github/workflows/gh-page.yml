@@ -1,0 +1,9 @@
+# 1. 为工作流定义名字
+name: 「GitHub Pages」Build & Deploy
+
+# 2. 触发条件修改为: 当 main 或 master 分支, 有 push 的时候, 执行任务
+on:
+  push:
+    branches:
+      - master
+      - main
