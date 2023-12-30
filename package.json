@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@vitejs/plugin-legacy": "^4.1.1",
+    "cropperjs": "^1.6.1",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "postcss-px-to-viewport": "^1.1.1",
     "vite": "^4.4.5"
   }
 }
